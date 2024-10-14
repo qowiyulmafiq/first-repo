@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper-3">
+        <div class="container_form3">
+            <label for="balok">Menghitung Balok (cm)</label>
+            <span><input type="number" id="panjang-balok" placeholder="Panjang balok"></span>
+            <span><input type="number" id="lebar-balok" placeholder="Lebar balok"></span>
+            <span><input type="number" id="tinggi-balok" placeholder="Tinggi balok"></span>
+            <span><button onclick="hitungBalok()">Hitung Balok</button></span><br>
+            <br>
+
+            <label for="sisi">Menghitung Kubus (cm):</label>
+            <span><input type="number" id="sisi-kubus" placeholder="Masukkan sisi kubus"> <button onclick="hitungKubus()">Hitung Kubus</button></span><br>
+            <br>
+
+            <label for="prisma">Menghitung Prisma Segitiga (cm):</label>
+            <span><input type="number" id="alas-prisma" placeholder="Alas segitiga"></span> 
+            <span><input type="number" id="tinggi-segitiga-prisma" placeholder="Tinggi segitiga"></span>
+            <span><input type="number" id="tinggi-prisma" placeholder="Tinggi prisma"></span>
+            <span><button onclick="hitungPrisma()">Hitung Prisma</button></span><br>
+            <br>
+            
+            <label for="bola">Menghitung Bola (cm):</label>
+            <span><input type="number" id="jari-jari" placeholder="jari-jari"></span> 
+            <span><button onclick="hitungBola()">Hitung Bola</button></span>
+        </div>
+        
+        <div class="container_3">
+            <form class="pil">
+            <h4></h4>
+            <table cellpadding="10" class="table-pro3">
+                <thead>
+                    <tr>
+                        <th>Bangun Ruang</th>
+                        <th>Diketahui(cm)</th>
+                        <th>Luas</th>
+                        <th>Volume</th>
+                        <th>Keliling</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><Label for="balok">Balok</Label></td>
+                        <td><label id="diket-balok"></td>
+                        <td><label id="hasil-luas-bal"></label></td>
+                        <td><label id="hasil-volume-bal"></label></td>
+                        <td><label id="hasil-keliling-bal"></label></td>
+                    </tr>
+                    <tr>
+                        <td><Label for="balok">Kubus</Label></td>
+                        <td><label id="diket-sisi"></label></td>
+                        <td><label id="hasil-luas-kub"></label></td>
+                        <td><label id="hasil-volume-kub"></label></td>
+                        <td><label id="hasil-keliling-kub"></label></td>
+                    </tr>
+                    <tr>
+                        <td><Label for="Prisma">Prisma</Label></td>
+                        <td><label id="diket-pris"></label></td>
+                        <td><label id="hasil-luas-pris"></label></td>
+                        <td><label id="hasil-volume-pris"></label></td>
+                        <td><label id="hasil-keliling-pris"></label></td>
+                    </tr>
+                    <tr>
+                        <td><Label for="Bola">Bola</Label></td>
+                        <td><label id="diket-bola"></label></td>
+                        <td><label id="hasil-luas-bola"></label></td>
+                        <td><label id="hasil-volume-bola"></label></td>
+                        <td><label id="hasil-keliling-bola"></label></td>
+                    </tr>
+                </tbody>
+            </table>
+            </form>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

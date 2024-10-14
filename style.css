@@ -1,0 +1,231 @@
+*, html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: "outfit",Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.menu-container {
+    display: flex;
+    text-align: center;
+    padding: 50px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    margin: 10px;
+    min-width: 450px;
+    width: 2rem;
+    justify-content: center;
+}
+
+.menu-container .menu-list {
+    list-style-type: none;
+    display: grid;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+}
+
+.menu-container .menu-list li a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #28a745;
+    padding: 7px;
+    border: none;
+    border-radius: 4px;
+    transition: all;
+    transition-duration: 200ms;
+}
+
+.menu-container .menu-list li a:hover{
+    text-decoration: none;
+    color:#28a745;
+    background-color: #fff;
+    padding: 7px;
+    border: none;
+    border-radius: 4px;
+}
+
+.container_1 {
+    text-align: center;
+    padding: 50px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.button-p1 {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button-p1:hover {
+    background-color: #218838;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #333;
+}
+
+
+
+/*For Pro_3 */
+.wrapper-3 {
+    display: flex;
+    margin-top: auto;
+}
+.container_form3{
+    text-align: center;
+    padding: 50px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    margin: 10px;
+    min-width: 450px;
+    width: 2rem;
+}
+
+.container_3{
+    text-align: center;
+    padding: 50px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    margin: 10px;
+    min-width: 450px;
+}
+
+.table-pro3 {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 450px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.table-pro3 th,
+.table-pro3 td{
+    padding: 12px 15px;
+}
+
+.table-pro3 thead tr{
+    background-color: #009879;
+    color: #ffffff;
+    text-align: center;
+}
+
+.table-pro3 thead tr{
+    height: 30px;
+}
+
+.table-pro3 tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.table-pro3 tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.table-pro3 tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/*For Pro_2*/
+.wrapper-2 {
+    display: flex;
+    margin-top: auto;
+}
+
+.container-form2 {
+    text-align: center;
+    padding: 50px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    min-width: 450px;
+    width: 2rem;
+    margin: 10px;
+}
+
+.container_2 {
+    text-align: center;
+    padding: 50px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    margin: 10px;
+    min-width: 450px;
+}
+.table-pro2{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 450px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.table-pro2 th,
+.table-pro2 td{
+    padding: 12px 15px;
+}
+
+.table-pro2 thead tr{
+    background-color: #009879;
+    color: #ffffff;
+    text-align: center;
+}
+
+.table-pro2 thead tr{
+    height: 30px;
+}
+
+.table-pro2 tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.table-pro2 tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.table-pro2 tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}

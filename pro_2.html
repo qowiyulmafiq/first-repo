@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper-2">
+        <div class="container-form2">
+            <h3>Data Mahasiswa</h3><br>
+            <label for="namaMahasiswa">Masukan Nama Mahasiswa</label>
+            <span><input type="text" id="nama1" placeholder="Nama Mahasiswa 1"></span>
+            <span><input type="text" id="nama2" placeholder="Nama Mahasiswa 2"></span>
+            <span><input type="text" id="nama3" placeholder="Nama Mahasiswa 3"></span>
+            <span><input type="text" id="nama4" placeholder="Nama Mahasiswa 4"></span>
+            <span><input type="text" id="nama5" placeholder="Nama Mahasiswa 5"></span>
+            <span><button onclick="inputNama()">Input</button></span><br>
+            <br>
+
+            <label for="nilaiUts">Masukan Nilai UTS</label>
+            <span><input type="number" id="uts1" placeholder="UTS Mahasiswa 1"></span>
+            <span><input type="number" id="uts2" placeholder="UTS Mahasiswa 2"></span>
+            <span><input type="number" id="uts3" placeholder="UTS Mahasiswa 3"></span>
+            <span><input type="number" id="uts4" placeholder="UTS Mahasiswa 4"></span>
+            <span><input type="number" id="uts5" placeholder="UTS Mahasiswa 5"></span>
+            <span><button onclick="inputUts()">Input</button></span><br>
+            <br>
+
+            <label for="nilaiUas">Masukan Nilai UAS</label>
+            <span><input type="number" id="uas1" placeholder="UAS Mahasiswa 1"></span>
+            <span><input type="number" id="uas2" placeholder="UAS Mahasiswa 2"></span>
+            <span><input type="number" id="uas3" placeholder="UAS Mahasiswa 3"></span>
+            <span><input type="number" id="uas4" placeholder="UAS Mahasiswa 4"></span>
+            <span><input type="number" id="uas5" placeholder="UAS Mahasiswa 5"></span>
+            <span><button onclick="inputUas()">Input</button></span><br>
+            <br>
+        </div>
+
+        <div class="container_2">
+            <h3>Tabel Data Status Mahasiswa</h3>
+            <table cellpadding="10" class="table-pro2">
+                <thead>
+                    <tr>
+                        <th>No</th>
+                        <th>Nama</th>
+                        <th>Nilai UTS</th>
+                        <th>Nilai UAS</th>
+                        <th>Nilai Akhir</th>
+                        <th>Grade</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1.</td>
+                        <td><label id="hasil-nama1"></label></td>
+                        <td><label id="nilai-uts1"></label></td>
+                        <td><label id="nilai-uas1"></label></td>
+                        <td><label id="nilai-total1"></label></td>
+                        <td><label id="hasil-grade1"></label></td>
+                        <td><label id="hasil-status1"></label></td>
+                    </tr>
+                    <tr>
+                        <td>2.</td>
+                        <td><label id="hasil-nama2"></label></td>
+                        <td><label id="nilai-uts2"></label></td>
+                        <td><label id="nilai-uas2"></label></td>
+                        <td><label id="nilai-total2"></label></td>
+                        <td><label id="hasil-grade2"></label></td>
+                        <td><label id="hasil-status2"></label></td>
+                    </tr>
+                    <tr>
+                        <td>3.</td>
+                        <td><label id="hasil-nama3"></label></td>
+                        <td><label id="nilai-uts3"></label></td>
+                        <td><label id="nilai-uas3"></label></td>
+                        <td><label id="nilai-total3"></label></td>
+                        <td><label id="hasil-grade3"></label></td>
+                        <td><label id="hasil-status3"></label></td>
+                    </tr>
+                    <tr>
+                        <td>4.</td>
+                        <td><label id="hasil-nama4"></label></td>
+                        <td><label id="nilai-uts4"></label></td>
+                        <td><label id="nilai-uas4"></label></td>
+                        <td><label id="nilai-total4"></label></td>
+                        <td><label id="hasil-grade4"></label></td>
+                        <td><label id="hasil-status4"></label></td>
+                    </tr>
+                    <tr>
+                        <td>5.</td>
+                        <td><label id="hasil-nama5"></label></td>
+                        <td><label id="nilai-uts5"></label></td>
+                        <td><label id="nilai-uas5"></label></td>
+                        <td><label id="nilai-total5"></label></td>
+                        <td><label id="hasil-grade5"></label></td>
+                        <td><label id="hasil-status5"></label></td>
+                    </tr>
+                </tbody>
+            </table>
+            <span><button onclick="nilaiAkhir();tentukanGradeDanStatus()">Lihat Hasil</button></span>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
